@@ -6,7 +6,26 @@ variable "controller_username" {
   type = string
 }
 
-variable "ssh_public_key" {
+variable "controller_password" {
+  type = string
+}
+
+variable "public_key" {
+  type = string
+}
+
+variable "azure_subscription_id" {
+  type = string
+}
+
+variable "azure_client_id" {
+  type = string
+}
+variable "azure_client_secret" {
+  type = string
+}
+
+variable "azure_tenant_id" {
   type = string
 }
 
